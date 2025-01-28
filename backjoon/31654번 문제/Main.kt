@@ -1,0 +1,1 @@
+fun main() = println(if (System.`in`.bufferedReader().readLine().split(' ').map { it.toInt() }.let { it[0] + it[1] == it[2] }) "correct!" else "wrong!")
