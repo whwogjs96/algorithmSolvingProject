@@ -1,0 +1,1 @@
+fun main() = println(readln().map { if(it.isUpperCase()) it.lowercaseChar() else it.uppercaseChar() }.joinToString(""))
